@@ -11,7 +11,7 @@ html {
 }
 .background::before {
   content: "";
-  background-image: url(/images/fashion2.jpg);
+  background-image: url(images/fashion2.jpg);
   background-size: cover;
   position: absolute;
   top: 0;
@@ -256,17 +256,17 @@ html {
   transform: scale(1.05);
 }
 .background-men {
-  background-image: url(/images/men.jpg);
+  background-image: url(images/men.jpg);
   background-position: 40% center;
   background-size: cover;
 }
 .background-women {
-  background-image: url(/images/wom2.jpg);
+  background-image: url(images/wom2.jpg);
   background-position: center;
   background-size: cover;
 }
 .background-kids {
-  background-image: url(/images/women.jpg);
+  background-image: url(images/women.jpg);
   background-position: center;
   background-size: cover;
 }
