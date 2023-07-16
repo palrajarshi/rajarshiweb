@@ -12,12 +12,12 @@
 //   "/images/fashione2.jpg",
 // ];
 var images = [
-  "/images/array0.jpg",
-  "/images/array1.jpg",
-  "/images/array2.jpg",
-  "/images/array3.jpg",
-  "/images/array4.jpg",
-  "/images/array5.jpg",
+  "images/array0.jpg",
+  "images/array1.jpg",
+  "images/array2.jpg",
+  "images/array3.jpg",
+  "images/array4.jpg",
+  "images/array5.jpg",
 ];
 
 var currentIndex = 0;
@@ -38,7 +38,7 @@ setInterval(function () {
 
 // Link back
 function goToAnotherPage() {
-  window.location.href = "/index.html";
+  window.location.href = "index.html";
 }
 function twitter() {
   window.open(
