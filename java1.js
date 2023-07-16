@@ -38,7 +38,7 @@ setInterval(function () {
 
 // Link back
 function goToAnotherPage() {
-  window.location.href = "/docs/index.html";
+  window.location.href = "/index.html";
 }
 function twitter() {
   window.open(
