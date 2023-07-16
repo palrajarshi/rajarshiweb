@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bebas+Neue&family=Belanosima&family=Cabin&family=Caprasimo&family=Dosis:wght@200&family=Lato:wght@100&family=Noto+Serif+Display:wght@300&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Rubik+Dirt&family=Titillium+Web:wght@300&family=Ysabeau+Infant:wght@300&family=Ysabeau+SC:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/javapr.js"></script>
+  </head>
+  <body>
+    <video autoplay loop muted id="back-vid">
+      <source
+        src="/Videos/video_of_women_modelling (1080p).mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="container">
+      <nav id="navbar">
+        <div class="logo-left">
+          <div class="image-primary">
+            <img src="/images/logo.png" alt="logo" />
+          </div>
+          <div class="para-primary" onclick="vanish()"><p>Web.fashion</p></div>
+        </div>
+        <div class="nav-right">
+          <ul id="nav-items">
+            <li><input type="text" placeholder="SEARCH" /></li>
+            <li><a href="/Html/projindex.html" target="_blank">Projects</a></li>
+            <li><a href="#">Buy Now</a></li>
+            <li>
+              <a
+                href="https://accounts.google.com/v3/signin/identifier?dsh=S-2080075079%3A1689310134601345&hl=en-GB&ifkv=AeDOFXiRdCCyDt7vqZr2Tu2hkjtOJR3Ck61gHenaQ2HtLhqrhcOU31E_ufmHM0l-KfcXKXZJ6vPu5g&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                target="_blank"
+                >Sign in</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="sect-1">
+        <div class="sect-middle">
+          <div class="mid-heading1">
+            <p class="para-secondary">SALE</p>
+          </div>
+          <div class="mid-heading2">
+            <p class="para-third">
+              Now online and in stores. Join web.fashion now!
+            </p>
+          </div>
+          <div class="button-class">
+            <button class="btn" onclick="linktonext()">Explore</button>
+            <button class="btn" onclick="linktopage()">Join</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
