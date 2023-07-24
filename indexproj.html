@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="projindex.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bebas+Neue&family=Belanosima&family=Cabin&family=Caprasimo&family=Dosis:wght@200&family=Lato:wght@100&family=Noto+Serif+Display:wght@300&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Rubik+Dirt&family=Titillium+Web:wght@300&family=Ysabeau+Infant:wght@300&family=Ysabeau+SC:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul id="nav-items">
+        <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Styles">Styles</a></li>
+        <li><a href="#Featured">Featured</a></li>
+        <li><a href="#Explore">Categories</a></li>
+        <li><a href="#About">About</a></li>
+      </ul>
+      <div id="right-nav">
+        <button class="btn-nv" onclick="goToAnotherPage1()">Sign in</button>
+        <button class="btn-nv" onclick="goToAnotherPage()">
+          <svg
+            onclick="goToAnotherPage()"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-left"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+            />
+          </svg>
+        </button>
+
+        <!-- <button class="btn-nv btn-back">&gt;</button> -->
+      </div>
+    </nav>
+    <section id="home" class="background">
+      <div class="home-mid">
+        <div class="para-1">
+          <p class="para-primary">India's Number 1 Fashion Brand!</p>
+          <p class="para-secondary">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sit
+            non temporibus voluptas. Quaerat, ut suscipit. Laudantium, repellat.
+            Esse repellendus dicta rerum incidunt fuga non itaque, vitae
+            praesentium consectetur magnam atque voluptatum id minima.
+          </p>
+        </div>
+        <div class="home-items" id="homerightitems">
+          <!-- Dynamic Script -->
+        </div>
+        <div class="buttons">
+          <button class="btn">Explore</button>
+          <button class="btn">Shop Now!</button>
+        </div>
+      </div>
+      <!-- <div class="home-right"> -->
+
+      <!-- </div> -->
+    </section>
+    <div class="style-heading"><h1 class="normal-heading">STYLES</h1></div>
+    <section id="Styles">
+      <div class="styles-left" onclick="changeImage('previous')">
+        <button class="btn">Prev</button>
+      </div>
+      <div class="styles-middle">
+        <div class="para-1">
+          <p class="para-primary">
+            Over 5000+ Designs, accurate Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+        <img id="styleImage" src="images/ind0.jpg" alt="" />
+      </div>
+      <div class="styles-right" onclick="changeImage('next')">
+        <button class="btn">Next</button>
+      </div>
+    </section>
+    <section id="Featured">
+      <div class="explore-heading">
+        <h1 class="normal-heading">FEATURED</h1>
+      </div>
+      <div class="video-box">
+        <div id="vid">
+          <video autoplay loop muted src="Videos/featured.mp4"></video>
+        </div>
+      </div>
+      <div class="vid-title">
+        <p class="para-primary">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+    <section id="Explore">
+      <div class="explore-heading"><h1 class="normal-heading">EXPLORE</h1></div>
+      <div class="explore-box">
+        <div class="explore-items background-men">
+          <div class="button-explore"><button class="btn">Men's</button></div>
+        </div>
+        <div class="explore-items background-women">
+          <div class="button-explore"><button class="btn">Women's</button></div>
+        </div>
+        <div class="explore-items background-kids">
+          <div class="button-explore"><button class="btn">Kid's</button></div>
+        </div>
+      </div>
+    </section>
+    <div class="explore-heading">
+      <h1 class="normal-heading">ABOUT US</h1>
+    </div>
+    <section id="About">
+      <div class="about-container-para">
+        <p class="para-about">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
+          dolore, quae adipisci eos veniam tempora nobis reprehenderit molestias
+          nisi nihil minima, eius velit, sed neque expedita ex architecto
+          laudantium deleniti aut! Accusamus, possimus molestiae sed eius amet
+          excepturi ipsa unde. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Excepturi nam id perspiciatis ea suscipit quae
+          consequatur voluptatibus, dolore labore sapiente.
+        </p>
+        <div class="about-container-heading">
+          <h1 class="about-heading">Follow us on!</h1>
+        </div>
+        <div class="logo-links">
+          <div class="logo-image" onclick="twitter()">
+            <img src="images/twi.png" alt="" />
+          </div>
+          <div class="logo-image" onclick="insta()">
+            <img src="images/ins.png" alt="" />
+          </div>
+          <div class="logo-image" onclick="fb()">
+            <img src="images/fb.png" alt="" />
+          </div>
+          <div class="logo-image" onclick="linkedin()">
+            <img src="images/linked.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="para-about">
+        &copy; Copyright 2023, Work Made by Rajarshi Pal | WebDesigns
+      </p>
+    </footer>
+    <script src="java1.js"></script>
+  </body>
+</html>

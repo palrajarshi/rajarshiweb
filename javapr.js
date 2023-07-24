@@ -11,5 +11,5 @@ function linktopage() {
   );
 }
 function linktonext() {
-  window.open("projindex.html");
+  window.open("indexproj.html");
 }
