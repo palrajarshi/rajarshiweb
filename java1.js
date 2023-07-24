@@ -86,3 +86,21 @@ function updateCountdown() {
 
 // Update the countdown every second
 setInterval(updateCountdown, 1000);
+
+// Navbar Visibility
+// let fetch = document.getElementById('navbar');
+// fetch.addEventListener("mouseover",()=>{
+//   if(fetch.classList.contains("navbar-hidden")){
+//     fetch.classList.remove('navbar-hidden');
+//     fetch.classList.add('navbar-visible');
+//   }
+//   else{
+//   fetch.classList.add('navbar-visible');
+//   console.log("Mouse enter");
+//   }
+// })
+// fetch.addEventListener("mouseout",()=>{
+//   fetch.classList.remove('navbar-visible');
+//   fetch.classList.add('navbar-hidden');
+//   console.log("Mouse leave");
+// })

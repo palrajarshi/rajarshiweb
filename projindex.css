@@ -25,6 +25,7 @@ html {
 .btn-nv {
   font-family: "Dosis", sans-serif;
   padding: 0.3rem;
+  margin-left: 0.4rem;
   border-radius: 0.6rem;
   font-size: 1.1rem;
   font-weight: bold;
@@ -108,6 +109,12 @@ html {
   z-index: 1;
   align-items: center;
 }
+.navbar-visible{
+  opacity: 1;
+}
+.navbar-hidden{
+  opacity: 0;
+}
 #nav-items {
   box-sizing: border-box;
   display: flex;
@@ -162,7 +169,7 @@ html {
 #home {
   display: flex;
   align-items: center;
-  height: 88vh;
+  height: 78vh;
 }
 .home-mid {
   display: flex;
@@ -194,7 +201,6 @@ html {
   grid-template-columns: 1fr 18fr 1fr;
   height: 85vh;
 }
-
 .styles-left {
   /* border: 2px solid black; */
   display: flex;

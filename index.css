@@ -74,6 +74,12 @@
   grid-area: navbar;
   grid-template-areas: "left-navbar left-navbar right-navbar";
 }
+.navbar-hidden{
+  opacity: 0;
+}
+.navbar-visible{
+  opacity: 1;
+}
 .logo-left {
   /* border: 2px solid yellow; */
   grid-area: left-navbar;
